@@ -23,3 +23,12 @@ Usage: `dotnet ef [options] [command]`
   database    Commands to manage the database.
   dbcontext   Commands to manage DbContext types.
   migrations  Commands to manage migrations.
+
+`dotnet ef migrations -h`
+
+Add a new Migration:
+
+`dotnet ef migrations add InitialCreate`
+
+Create or Update DB:
+`dotnet ef database update` 
