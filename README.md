@@ -1,5 +1,27 @@
 # DatingApp
-DatingApp
+
+**To create Angular Project**
+
+>`ng new <Project Name>`
+
+**To create .gitignore file**
+
+>`touch .gitignore`
+
+**To create dotnet core WebAPI**
+>`dotnet new webapi`
+
+**Dotnet Core: 3.1.4**
+
+**Entity Framework 3.1.4**
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.Design
+- Microsoft.EntityFrameworkCore.Sqlite
+
+**Identity Model**
+- Microsoft.IdentityModel.Tokens
+- System.IdentityModel.Tokens.Jwt
+- Microsoft.AspNetCore.Authentication.JwtBearer
 
 Command to install dotnet EntityFramework CLI globally
 
