@@ -4,7 +4,6 @@ import {FormsModule} from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { WeatherComponent } from './weather/weather.component';
 import { NavComponent } from './nav/nav.component';
 import { AuthService } from './_services/auth.service';
 import { RegisterComponent } from './register/register.component';
@@ -14,7 +13,6 @@ import { ErrorInterceptorProvider } from './_services/error.interceptor';
 @NgModule({
    declarations: [
       AppComponent,
-      WeatherComponent,
       NavComponent,
       RegisterComponent,
       HomeComponent
